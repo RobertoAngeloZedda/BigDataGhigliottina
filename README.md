@@ -12,6 +12,14 @@ Paisà: https://www.corpusitaliano.it/
 The Italian Wiki Dump: https://dumps.wikimedia.org/itwiki/
 Use the following tool to parse the Wiki Dump: https://github.com/attardi/wikiextractor
 
-Once you obtain all this data you need to run all the code inside the "Preprocessing" notebook.
 
-Finally, in order to run the bot, you'll have to create a file named "token.txt" in the main directory and write your Telegram API key inside of it.
+Finally, in order to run the bot, you'll have to create ad your telegram key to the file named "telegrambot.py".
+
+## Usage
+
+1. Clone the repository
+2. Install all the required python modules
+
+``` txt
+pip install -r requirements.txt
+```
